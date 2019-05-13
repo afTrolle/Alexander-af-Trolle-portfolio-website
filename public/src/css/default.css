@@ -1,0 +1,154 @@
+
+  .my-card {
+    height: 350px;
+    width: 350px;
+  }
+  .my-card-content {
+    padding: 16px;
+  }
+
+  body {
+    background-color : var(--background-color);
+    color : var(--on-primary);
+  }
+
+  .list-group-item-action {
+
+    color: var(--primary-lighter);
+    display: flex;
+}
+
+  .card {
+    background-color : var(--primary-light)
+  }
+
+  .card-footer {
+    background-color: var(--primary-light)
+  }
+.border-top  {
+ border-color:  var(--primary-lighter)!important;
+ 
+}
+.bmd-help, .text-muted {
+  color:  rgb(192, 192, 192)!important;
+}
+.accent{
+  background-color: var(--accent)
+}
+
+.list-group-item {
+  padding: .66rem 1rem;
+}
+
+.list-group-item :first-child {
+  margin-right: 1.0rem;
+}
+
+.feather {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+  :root {
+
+    --background-color : #373737;
+
+
+    --primary-lighter: #8e8e8e;
+    --primary-light: #616161;
+    --primary-dark: #373737;
+    --primary: #373737;
+
+    --on-primary: #ffffff;
+
+    --accent-light : #f9a825;
+    --accent : #fbc02d;
+    --accent-dark: #c17900;
+
+    --blue: brown;
+  }
+
+
+  .profile-image {
+    width: 180px;
+    align-self: center;
+    border-radius: 50%;
+  }
+
+  .sticky-top{
+    top:20px;
+  }
+
+  svg {
+    fill: #4caf50;
+   
+  }
+  
+ .my-no-warp{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+
+.my-accent-color{
+  color: var(--accent)
+}
+
+.nav-link {
+  
+  padding: .5rem .5rem;
+
+}
+
+
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+color: var(--accent-dark);
+}
+
+.my-parent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-text {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.my-image{
+  flex: 0 0 auto;
+}
+
+.btn-group {
+  color: aqua;
+}
+
+
+.limit-Animation{
+  overflow: hidden;  
+
+}
+
+.sr-hide{
+  visibility: hidden;
+}
+.contact-card {
+  visibility: hidden;
+}
+
+.delay-1s {
+  animation-delay: 1s;
+}
